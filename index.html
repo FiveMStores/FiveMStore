@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produtos</title>
+    <style>
+        html, body {
+            height: 100%;
+            margin: 0;
+        }
+
+        body {
+            background-color: #111111;
+            color: #ffffff;
+            background-image: url('https://th.bing.com/th/id/R.20880d2c50d47c03eb0fb12a3c61c333?rik=1bjstc2ULQUadA&pid=ImgRaw&r=0');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            position: relative;
+            box-sizing: border-box;
+            transition: background-image 0.3s ease; /* Adiciona uma transição suave para o fundo da página */
+        }
+
+        .price-list {
+            margin-top: 20px;
+            font-size: 1.2em;
+        }
+
+        #backButton {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            font-size: 1.2em;
+            text-decoration: none;
+            color: #007BFF;
+            padding: 5px 10px;
+            background-color: rgba(255, 255, 255, 0.7);
+            border-radius: 5px;
+        }
+
+        #storeHeader {
+            text-align: center;
+            margin-top: 50px; /* Ajuste conforme necessário */
+        }
+
+        #storeHeader h1 {
+            color: #007BFF;
+            font-size: 2em;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        #storeHeader img {
+            max-width: 100px; /* Ajuste o tamanho conforme necessário */
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Botão Voltar -->
+    <a id="backButton" href="javascript:history.back()"><- Voltar</a>
+
+    <!-- Cabeçalho da Loja -->
+    <div id="storeHeader">
+        <h1>FiveM Store</h1>
+        <img src="https://i2.wp.com/www.multarte.com.br/wp-content/uploads/2018/11/coroa-png-fundo-transparente4.png?ssl=1" alt="Coroa">
+    </div>
+
+    <!-- Lista de Preços -->
+    <div class="price-list">
+        <h2>Lista de Preços</h2>
+        <ol>
+            <li>Tiger Menu - 135,00R$</li>
+            <li>Jetzin Bypass - 70,00R$</li>
+            <li>Shark Menu - 120,00R$</li>
+            <li>Red Spoofer - 120,00R$</li>
+            <li>Red Executor - 120,00R$</li>
+            <li>Minecraft Full acesso- 64,00R$</li>
+            <li>Felipe Menu- 79,00R$</li>
+            <li>Avelino Menu- 110,00R$</li>
+        </ol>
+    </div>
+
+</body>
+</html>
